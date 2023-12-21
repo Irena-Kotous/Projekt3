@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    background-color: burlywood;
+    width: 100%;
+  }
+  header nav li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+@media (prefers-color-scheme: dark) {
+}
+
+@media (prefers-color-scheme: light) {
+}
+@media (max-width: 576px) {
+  .main-galery {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .image-block-galery {
+    display: block;
+  }
+  .image1,
+  .image2,
+  .image3 {
+    width: 100%;
+    background-color: beige;
+  }
+}
